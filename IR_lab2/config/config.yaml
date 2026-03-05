@@ -1,0 +1,13 @@
+db:
+  uri: mongodb://localhost:27017
+  database: search_engine
+  collection: documents
+
+logic:
+  delay: 2
+  max_pages: 50
+
+seeds:
+  - https://en.wikipedia.org/wiki/Information_retrieval
+  - https://en.wikipedia.org/wiki/Search_engine
+  - https://arxiv.org/
